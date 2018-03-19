@@ -23,9 +23,6 @@ const
    // unit = m/s*s
    GRAVITATIONAL_CONSTANT = 6.6726E-11;
 
-   S_LINE_BREAK = {$IFDEFF LINUX} AnsiChar(#10) {$ENDIF}
-                  {$IFDEFF MSWINDOWS} AnsiString(#13#10) {$ENDIF};
-
 var
    // m1 and m2 are the mass of the 2 bodies
    // f is the force between the two bodies

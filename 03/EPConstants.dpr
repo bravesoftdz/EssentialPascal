@@ -23,9 +23,6 @@ const
    // unit = m/s*s
    GRAVITATIONAL_CONSTANT = 6.6726E-11;
 
-   S_LINE_BREAK = {$IFDEF LINUX} AnsiChar(#10) {$ENDIF}
-                  {$IFDEF MSWINDOWS} AnsiString(#13#10) {$ENDIF};
-
 var
    // m1 and m2 are the mass of the 2 bodies
    // f is the force between the two bodies
@@ -89,7 +86,7 @@ begin
 }
 
   // In delphi you can add a new line character using '#13'
-  writeln('Programming in Pascal '+S_LINE_BREAK+'is fun.');
+  writeln('Programming in Pascal '+#13#10+'is fun.');
 
 
 
