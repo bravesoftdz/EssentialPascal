@@ -168,7 +168,7 @@ begin
   //writeln(Pred(value));
   //writeln(Succ(value));
   //writeln(ord(value));
-  Inc(value);
+  Inc(G);
   writeln(G);
 
 

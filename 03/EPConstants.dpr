@@ -85,8 +85,26 @@ begin
   writeln('The force between those masses are: '+force);
 }
 
-  // In delphi you can add a new line character using '#13'
+  // In delphi you can add a new line character using '#13#10'
+  // in window, however for linux systems it is only #13
   writeln('Programming in Pascal '+#13#10+'is fun.');
+
+  // Just a reminder, in pascal when you declare the constants
+  // you don't have to declare the data type just the name(identifier)
+  // followed by the value of that identifier
+  // the pascal compiler automatically assigns the data type
+
+  // However for variables, you need during declaraiton you need both the
+  // data type and the identifier under the var key word
+  // you can only give a value to the global variables but not to
+  // variables of methods
+
+  // What is a constant?
+  // A variable whose value you don't change during the program execution
+  // A variable whose value you don't change during the program execution
+  // A varibale whose value you don't change during the program execution
+
+  // What is a directive?
 
 
 
