@@ -1,3 +1,5 @@
+// Banking on SetTypes not being used by our company.
+// Lets just move onto Array Typs
 program SetTypes;
 {$APPTYPE CONSOLE}
 uses
@@ -11,6 +13,7 @@ Type
 
 Var
    Letters1,Letters2, Letters3: Letters;
+
 begin
    Letters1 := ['A','B','C'];
    Letters2 := ['K'];
